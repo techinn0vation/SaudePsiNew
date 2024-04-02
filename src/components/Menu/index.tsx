@@ -73,7 +73,7 @@ export default function Menu() {
             <DisplayLink
               href='/consultasOnline'
               title='Consultas Link SaúdePsi'
-              className={activeLink === 'Consultas' ? 'active' : ''}
+              className={activeLink === 'ConsultasOnline' ? 'active' : ''}
               onClick={() => handleLinkClick('ConsultasOnline')}
             >
               consultas
