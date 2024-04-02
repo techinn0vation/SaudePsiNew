@@ -9,6 +9,7 @@ import Psicoterapia from 'components/Comps_Home/Psicoterapia'
 import CardsPsicologia from 'components/Comps_Intervenções/CardsPsicologia'
 import Topicos from 'components/Comps_Intervenções/Topicos'
 import Sobre from 'components/Comps_Sobre/ContentSobre'
+import Meta from 'components/Helmet'
 import Hero from 'components/Hero'
 
 export {
@@ -23,5 +24,6 @@ export {
   AreaDeIntervenção,
   Sobre,
   InfoContacts,
-  FormContactos
+  FormContactos,
+  Meta
 }

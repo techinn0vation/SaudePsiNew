@@ -61,6 +61,15 @@ const DocConsultasOnline = {
       Descrição:
         ' permite uma variedade de métodos de comunicação, como vídeo, áudio ou mensagens de texto, oferecendo aos clientes a oportunidade de escolher a forma de interação que melhor se adapta às suas necessidades e preferências.'
     }
+  },
+
+  Helmet: {
+    ConsultasOnline: {
+      Titulo:
+        'Consultas Online SaúdePsi | Consultas de Psicologia e Psicoterapia | Sintra | Lisboa | Oeiras',
+      Descrição:
+        'SaúdePsi - Com as nossas consultas de psicologia online e presenciais, desfrute de um atendimento de qualidade com os nossos psicólogos em Sintra, Lisboa e Oeiras.'
+    }
   }
 }
 

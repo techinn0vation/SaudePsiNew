@@ -274,6 +274,15 @@ const DocHome = {
       },
       Email: 'mailto:soniagravanita@saudepsi.pt'
     }
+  },
+
+  Helmet: {
+    Home: {
+      Titulo:
+        'Consultas de Psicologia e Psicoterapia| Sintra | Lisboa | Oeiras',
+      Descrição:
+        'Consultas de Psicologia, SaúdePsi - Marque a sua consulta de psicologia em Sintra, Lisboa e Oeiras e fale com os nossos psicólogos, veja quais as intervenções que atuamos.'
+    }
   }
 }
 

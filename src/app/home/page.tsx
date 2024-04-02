@@ -3,6 +3,7 @@ import {
   AreaDeIntervenção,
   Consultorios,
   Equipa,
+  Meta,
   Hero,
   Psicologia,
   Psicoterapia
@@ -13,6 +14,10 @@ import BGHero from 'assets/img/Problem.png'
 export default function HomePage() {
   return (
     <>
+      <Meta
+        title={DocHome.Helmet.Home.Titulo}
+        description={DocHome.Helmet.Home.Descrição}
+      />
       <Hero
         title={DocHome.HeadlineHero.Home.Titulo}
         pseudoText={DocHome.HeadlineHero.Home.PseudoText}

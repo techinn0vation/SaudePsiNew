@@ -95,6 +95,14 @@ const DocIntervenções = {
       Descrição:
         'a bulimia nervosa é um transtorno alimentar caracterizado por episódios recorrentes de compulsão alimentar seguidos por comportamentos compensatórios, como vómitos autoinduzidos, uso excessivo de laxantes ou exercícios físicos extremos. Esses comportamentos são acompanhados por uma preocupação excessiva com o peso corporal e a forma física. A bulimia pode ter graves consequências para a saúde física e mental e geralmente requer tratamento especializado, incluindo terapia e apoio médico.'
     }
+  },
+
+  Helmet: {
+    Intervenções: {
+      Titulo: 'SaúdePsi - Áreas de Intervenções.',
+      Descrição:
+        'SaúdePsi - Está à procura de um psicólogo que ajude ultrapassar a sua depressão, ansiedade e pânicos, estamos localizados em Sintra, Lisboa e Oeiras.'
+    }
   }
 }
 

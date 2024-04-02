@@ -35,6 +35,14 @@ const DocContacto = {
     TerapiaCasal: 'Terapia de Casal',
     Neuropsicologia: 'Neuropsicologia',
     Hipnose: 'Hipnose'
+  },
+
+  Helmet: {
+    Contactos: {
+      Titulo: 'SaúdePsi - Contactos.',
+      Descrição:
+        'SaúdePsi - Marque a sua consulta de psicologia com os nossos psicólogos, estamos localizados em Sintra, Lisboa e Oeiras'
+    }
   }
 }
 

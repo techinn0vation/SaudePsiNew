@@ -33,6 +33,15 @@ const DocSobre = {
       Descrição:
         'na SaúdePsi acreditamos que as pessoas têm a capacidade de alcançar uma Saúde Integral de qualidade, com o objetivo de construir ou criar uma vida completa de sentido. A nossas consultas de Psicologia e Psicoterapia ajudam a viver mais no presente melhorando a relação consigo e com os outros.'
     }
+  },
+
+  Helmet: {
+    Sobre: {
+      Titulo:
+        'Sobre a SaúdePsi | Consultas de Psicologia e Psicoterapia | Sintra | Lisboa | Oeiras',
+      Descrição:
+        'SaúdePsi - Somos uma equipa de psicólogos, especializados na área de psicologia e Psicoterapia. Atendemos de forma humana e confiabilidade.'
+    }
   }
 }
 
