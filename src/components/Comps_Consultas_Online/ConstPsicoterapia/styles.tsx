@@ -46,7 +46,7 @@ export const WrapperPsicoterapia = styled.section`
       text-align: center;
 
       position: absolute;
-      top: 85rem;
+      top: 95rem;
       right: 0;
       opacity: 0.6;
       z-index: -1;
@@ -202,11 +202,11 @@ export const WrapperCardsPsicoterapia = styled.div`
 export const ViewCardsPsicoterapia = styled.div`
   width: 150rem;
   display: flex;
-  gap: 3rem;
+  gap: 4rem;
 `
 export const InnerCardPsicoterapia = styled.div`
   width: 100%;
-  height: 56rem;
+  height: 57rem;
 
   display: flex;
   flex-direction: column;
@@ -219,8 +219,10 @@ export const InnerCardPsicoterapia = styled.div`
   position: relative;
 
   background-color: ${(props) => props.theme.colors.WhiteSmoke};
-  border-bottom: solid 0.9rem ${(props) => props.theme.colors.Verde};
+  border-bottom: solid 1.2rem ${(props) => props.theme.colors.Verde};
   border-radius: 2rem;
+
+  margin-top: 3rem;
 `
 export const BodyCardPsicoterapia = styled.div`
   width: 100%;
@@ -232,7 +234,7 @@ export const BodyCardPsicoterapia = styled.div`
   align-items: center;
   gap: 2rem;
 
-  padding: 1.4rem;
+  padding: 3rem 1.4rem;
 
   z-index: 1;
 
@@ -269,20 +271,6 @@ export const BodyCardPsicoterapia = styled.div`
 
       &::first-letter {
         text-transform: capitalize;
-      }
-    }
-  }
-
-  @media (min-width: ${(props) => props.theme.screenSize.MD}) {
-    & > div:nth-child(1) {
-      h1 {
-        font-size: 2.3rem;
-        line-height: 3.45rem;
-      }
-
-      p {
-        font-size: 1.4rem;
-        line-height: 2.1rem;
       }
     }
   }
@@ -343,7 +331,10 @@ export const InnerHeadCardPsicoterapia = styled.div`
 `
 export const FrameCardPsicoterapia = styled(Image)`
   width: 4.5rem;
-  height: auto;
+  height: 4.5rem;
+
+  display: block;
+  margin: auto;
 
   object-fit: contain;
   -o-object-fit: contain;

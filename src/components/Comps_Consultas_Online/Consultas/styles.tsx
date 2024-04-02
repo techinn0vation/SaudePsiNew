@@ -46,7 +46,7 @@ export const WrapperPsicologia = styled.section`
       text-align: center;
 
       position: absolute;
-      top: 85rem;
+      top: 95rem;
       right: 0;
       opacity: 0.6;
       z-index: -1;
@@ -202,11 +202,11 @@ export const WrapperCardsPsicologia = styled.div`
 export const ViewCardsPsicologia = styled.div`
   width: 150rem;
   display: flex;
-  gap: 3rem;
+  gap: 4rem;
 `
 export const InnerCardPsicologia = styled.div`
   width: 100%;
-  height: 56rem;
+  height: 57rem;
 
   display: flex;
   flex-direction: column;
@@ -214,13 +214,13 @@ export const InnerCardPsicologia = styled.div`
   justify-content: start;
   align-items: center;
 
-  flex: auto;
-
   position: relative;
 
   background-color: ${(props) => props.theme.colors.WhiteSmoke};
-  border-bottom: solid 0.9rem ${(props) => props.theme.colors.Verde};
+  border-bottom: solid 1.2rem ${(props) => props.theme.colors.Verde};
   border-radius: 2rem;
+
+  margin-top: 3rem;
 `
 export const BodyCardPsicologia = styled.div`
   width: 100%;
@@ -232,7 +232,7 @@ export const BodyCardPsicologia = styled.div`
   align-items: center;
   gap: 2rem;
 
-  padding: 1.4rem;
+  padding: 3rem 1.4rem;
 
   z-index: 1;
 
@@ -269,20 +269,6 @@ export const BodyCardPsicologia = styled.div`
 
       &::first-letter {
         text-transform: capitalize;
-      }
-    }
-  }
-
-  @media (min-width: ${(props) => props.theme.screenSize.MD}) {
-    & > div:nth-child(1) {
-      h1 {
-        font-size: 2.3rem;
-        line-height: 3.45rem;
-      }
-
-      p {
-        font-size: 1.4rem;
-        line-height: 2.1rem;
       }
     }
   }
@@ -343,7 +329,10 @@ export const InnerHeadCardPsicologia = styled.div`
 `
 export const FrameCardPsicologia = styled(Image)`
   width: 4.5rem;
-  height: auto;
+  height: 4.5rem;
+
+  display: block;
+  margin: auto;
 
   object-fit: contain;
   -o-object-fit: contain;
