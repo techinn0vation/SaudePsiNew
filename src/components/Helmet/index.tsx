@@ -36,10 +36,11 @@ export default function Meta({ title, description }: MetaProps) {
         />
         <title>{title}</title>
         <link
-          rel='shortcut icon'
-          href='/assets/img/Brasao.png'
+          rel='icon'
+          href='https://saudepsi.pt/images/icon-saudepsi-consultas-psciologia-consultas-psicoterapia.png'
+          sizes='32x32'
           type='image/png'
-        />{' '}
+        />
       </Helmet>
     </>
   )
