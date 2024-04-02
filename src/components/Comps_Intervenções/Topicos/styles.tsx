@@ -292,7 +292,10 @@ export const HeadCardTopicos = styled.div`
 `
 export const FrameCardTopicos = styled(Image)`
   width: 90%;
-  height: auto;
+  height: 40.5em;
+
+  display: block;
+  margin: auto;
 
   object-fit: contain;
   -o-object-fit: contain;
