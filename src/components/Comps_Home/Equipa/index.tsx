@@ -2,9 +2,7 @@
 
 import { FaFacebookF, FaLinkedinIn } from 'react-icons/fa'
 import { MdAlternateEmail } from 'react-icons/md'
-import LazyLoad from 'react-lazyload'
 
-import Placeholder from 'components/Placeholder'
 import Headline from 'components/Ui/Headline'
 
 import DocHome from '../Doc_Home'
@@ -39,20 +37,12 @@ export default function Equipa() {
             <BlockProfile>
               {/* Frame Profiles */}
               <BorderProfile>
-                <LazyLoad
-                  height={200}
-                  offset={100}
-                  once
-                  debounce={500}
-                  placeholder={<Placeholder />}
-                >
-                  <FrameProfile
-                    src={BGV1}
-                    alt='Eduardo Romba Image SaúdePsi'
-                    title='Eduardo Romba Image SaúdePsi'
-                    priority={true}
-                  />
-                </LazyLoad>
+                <FrameProfile
+                  src={BGV1}
+                  alt='Eduardo Romba Image SaúdePsi'
+                  title='Eduardo Romba Image SaúdePsi'
+                  priority={true}
+                />
               </BorderProfile>
               {/* Frame Profiles */}
 
@@ -93,20 +83,12 @@ export default function Equipa() {
             <BlockProfile>
               {/* Frame Profiles */}
               <BorderProfile>
-                <LazyLoad
-                  height={200}
-                  offset={100}
-                  once
-                  debounce={500}
-                  placeholder={<Placeholder />}
-                >
-                  <FrameProfile
-                    src={BGV2}
-                    alt='Sónia Gravanita Image SaúdePsi'
-                    title='Sónia Gravanita Image SaúdePsi'
-                    priority={true}
-                  />
-                </LazyLoad>
+                <FrameProfile
+                  src={BGV2}
+                  alt='Sónia Gravanita Image SaúdePsi'
+                  title='Sónia Gravanita Image SaúdePsi'
+                  priority={true}
+                />
               </BorderProfile>
               {/* Frame Profiles */}
 

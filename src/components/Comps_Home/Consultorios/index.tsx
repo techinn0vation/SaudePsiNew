@@ -1,9 +1,7 @@
 'use client'
 
 import React, { useEffect, useRef } from 'react'
-import LazyLoad from 'react-lazyload'
 
-import Placeholder from 'components/Placeholder'
 import Title from 'components/Ui/CustomTitle'
 import Headline from 'components/Ui/Headline'
 
@@ -67,20 +65,12 @@ export default function Consultorios() {
             <ViewCardsConsultorios ref={carouselRef}>
               <InnerCardConsultorio>
                 <HeadCardConsultorio>
-                  <LazyLoad
-                    height={200}
-                    offset={100}
-                    once
-                    debounce={500}
-                    placeholder={<Placeholder />}
-                  >
-                    <FrameCardConsultorio
-                      src={BGV1}
-                      alt='Consultório Sintra SaúdePsi Image'
-                      title='Consultório Sintra SaúdePsi'
-                      priority={true}
-                    />
-                  </LazyLoad>
+                  <FrameCardConsultorio
+                    src={BGV1}
+                    alt='Consultório Sintra SaúdePsi Image'
+                    title='Consultório Sintra SaúdePsi'
+                    priority={true}
+                  />
                 </HeadCardConsultorio>
                 {/*  */}
                 <BodyCardConsultorio>
@@ -113,20 +103,12 @@ export default function Consultorios() {
               {/*  */}
               <InnerCardConsultorio>
                 <HeadCardConsultorio>
-                  <LazyLoad
-                    height={200}
-                    offset={100}
-                    once
-                    debounce={500}
-                    placeholder={<Placeholder />}
-                  >
-                    <FrameCardConsultorio
-                      src={BGV2}
-                      alt='Consultório Lisboa SaúdePsi Image'
-                      title='Consultório Lisboa SaúdePsi'
-                      priority={true}
-                    />
-                  </LazyLoad>
+                  <FrameCardConsultorio
+                    src={BGV2}
+                    alt='Consultório Lisboa SaúdePsi Image'
+                    title='Consultório Lisboa SaúdePsi'
+                    priority={true}
+                  />
                 </HeadCardConsultorio>
                 {/*  */}
                 <BodyCardConsultorio>
@@ -159,20 +141,12 @@ export default function Consultorios() {
               {/*  */}
               <InnerCardConsultorio>
                 <HeadCardConsultorio>
-                  <LazyLoad
-                    height={200}
-                    offset={100}
-                    once
-                    debounce={500}
-                    placeholder={<Placeholder />}
-                  >
-                    <FrameCardConsultorio
-                      src={BGV3}
-                      alt='Consultório Lisboa SaúdePsi Image'
-                      title='Consultório Lisboa SaúdePsi'
-                      priority={true}
-                    />
-                  </LazyLoad>
+                  <FrameCardConsultorio
+                    src={BGV3}
+                    alt='Consultório Lisboa SaúdePsi Image'
+                    title='Consultório Lisboa SaúdePsi'
+                    priority={true}
+                  />
                 </HeadCardConsultorio>
                 {/*  */}
                 <BodyCardConsultorio>
@@ -205,20 +179,12 @@ export default function Consultorios() {
               {/*  */}
               <InnerCardConsultorio>
                 <HeadCardConsultorio>
-                  <LazyLoad
-                    height={200}
-                    offset={100}
-                    once
-                    debounce={500}
-                    placeholder={<Placeholder />}
-                  >
-                    <FrameCardConsultorio
-                      src={BGV4}
-                      alt='Consultório Oeiras SaúdePsi Image'
-                      title='Consultório Oeiras SaúdePsi'
-                      priority={true}
-                    />
-                  </LazyLoad>
+                  <FrameCardConsultorio
+                    src={BGV4}
+                    alt='Consultório Oeiras SaúdePsi Image'
+                    title='Consultório Oeiras SaúdePsi'
+                    priority={true}
+                  />
                 </HeadCardConsultorio>
                 {/*  */}
                 <BodyCardConsultorio>

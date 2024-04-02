@@ -289,23 +289,10 @@ export const HeadCardAreaDeIntervenção = styled.div`
   align-items: center;
 
   position: relative;
-
-  /* &::after {
-    content: '';
-    width: 10rem;
-    height: 10rem;
-    margin: 1.6rem 0;
-    background-color: ${(props) => props.theme.colors.VerdeEscuro};
-
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-  } */
 `
 export const FrameCardAreaDeIntervenção = styled(Image)`
   width: 90%;
-  height: auto;
+  height: 40.5rem;
 
   display: block;
   margin: auto;

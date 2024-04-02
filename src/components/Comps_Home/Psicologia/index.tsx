@@ -1,9 +1,7 @@
 'use client'
 
 import React, { useEffect } from 'react'
-import LazyLoad from 'react-lazyload'
 
-import Placeholder from 'components/Placeholder'
 import Headline from 'components/Ui/Headline'
 
 import DocHome from '../Doc_Home'
@@ -58,20 +56,12 @@ export default function Psicologia() {
             <InnerCardPsicologia id='BlockCardPsicologia'>
               {/* Head Card Psicologia */}
               <HeadCardPsicologia>
-                <LazyLoad
-                  height={200}
-                  offset={100}
-                  once
-                  debounce={500}
-                  placeholder={<Placeholder />}
-                >
-                  <FrameCardPsicologia
-                    src={BGV1}
-                    alt='Psicologia Infantil SaúdePsi'
-                    title='Psicologia Infantil SaúdePsi'
-                    priority={true}
-                  />
-                </LazyLoad>
+                <FrameCardPsicologia
+                  src={BGV1}
+                  alt='Psicologia Infantil SaúdePsi'
+                  title='Psicologia Infantil SaúdePsi'
+                  priority={true}
+                />
               </HeadCardPsicologia>
               {/* Head Card Psicologia */}
               {/* Body Card Psicologia */}
@@ -89,20 +79,12 @@ export default function Psicologia() {
             <InnerCardPsicologia id='BlockCardPsicologia'>
               {/* Head Card Psicologia */}
               <HeadCardPsicologia>
-                <LazyLoad
-                  height={200}
-                  offset={100}
-                  once
-                  debounce={500}
-                  placeholder={<Placeholder />}
-                >
-                  <FrameCardPsicologia
-                    src={BGV2}
-                    alt='Psicologia de Adolecente SaúdePsi'
-                    title='Psicologia de Adolecente SaúdePsi'
-                    priority={true}
-                  />
-                </LazyLoad>
+                <FrameCardPsicologia
+                  src={BGV2}
+                  alt='Psicologia de Adolecente SaúdePsi'
+                  title='Psicologia de Adolecente SaúdePsi'
+                  priority={true}
+                />
               </HeadCardPsicologia>
               {/* Head Card Psicologia */}
               {/* Body Card Psicologia */}
@@ -123,20 +105,12 @@ export default function Psicologia() {
             <InnerCardPsicologia id='BlockCardPsicologia'>
               {/* Head Card Psicologia */}
               <HeadCardPsicologia>
-                <LazyLoad
-                  height={200}
-                  offset={100}
-                  once
-                  debounce={500}
-                  placeholder={<Placeholder />}
-                >
-                  <FrameCardPsicologia
-                    src={BGV3}
-                    alt='Psicologia de Adulto SaúdePsi'
-                    title='Psicologia de Adulto SaúdePsi'
-                    priority={true}
-                  />
-                </LazyLoad>
+                <FrameCardPsicologia
+                  src={BGV3}
+                  alt='Psicologia de Adulto SaúdePsi'
+                  title='Psicologia de Adulto SaúdePsi'
+                  priority={true}
+                />
               </HeadCardPsicologia>
               {/* Head Card Psicologia */}
               {/* Body Card Psicologia */}
@@ -153,20 +127,12 @@ export default function Psicologia() {
             <InnerCardPsicologia id='BlockCardPsicologia'>
               {/* Head Card Psicologia */}
               <HeadCardPsicologia>
-                <LazyLoad
-                  height={200}
-                  offset={100}
-                  once
-                  debounce={500}
-                  placeholder={<Placeholder />}
-                >
-                  <FrameCardPsicologia
-                    src={BGV4}
-                    alt='Psicologia de Idoso SaúdePsi'
-                    title='Psicologia de Idoso SaúdePsi'
-                    priority={true}
-                  />
-                </LazyLoad>
+                <FrameCardPsicologia
+                  src={BGV4}
+                  alt='Psicologia de Idoso SaúdePsi'
+                  title='Psicologia de Idoso SaúdePsi'
+                  priority={true}
+                />
               </HeadCardPsicologia>
               {/* Head Card Psicologia */}
               {/* Body Card Psicologia */}

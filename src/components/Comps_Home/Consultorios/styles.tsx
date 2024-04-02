@@ -210,24 +210,26 @@ export const WrapperCardsConsultorios = styled.div`
 export const ViewCardsConsultorios = styled.div`
   width: 150rem;
   display: flex;
-  gap: 3rem;
+  gap: 4rem;
 `
 
 export const InnerCardConsultorio = styled.div`
   width: 100%;
+  height: 58.6rem;
 
   display: flex;
   flex-direction: column;
   -ms-flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   gap: 3rem;
 
   background-color: ${(props) => props.theme.colors.WhiteSmoke};
   border-radius: 0 0 1.4rem 1.4rem;
-  border-bottom: solid 0.9rem ${(props) => props.theme.colors.Verde};
+  border-bottom: solid 1.2rem ${(props) => props.theme.colors.Verde};
 
   padding: 0 1.4rem 5rem 1.4rem;
+  margin-top: 3rem;
 `
 export const HeadCardConsultorio = styled.div`
   width: 100%;
@@ -280,7 +282,7 @@ export const BodyCardConsultorio = styled.div`
     -ms-flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1.6rem;
 
     h1 {
       font-size: 2rem;

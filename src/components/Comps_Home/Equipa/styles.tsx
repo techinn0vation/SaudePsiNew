@@ -190,6 +190,9 @@ export const FrameProfile = styled(Image)`
   width: 10rem;
   height: 10rem;
 
+  display: block;
+  margin: auto;
+
   object-fit: contain;
   -o-object-fit: contain;
   object-position: center;

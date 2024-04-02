@@ -292,7 +292,7 @@ export const HeadCardPsicologia = styled.div`
 `
 export const FrameCardPsicologia = styled(Image)`
   width: 90%;
-  height: auto;
+  height: 40.5rem;
 
   display: block;
   margin: auto;
