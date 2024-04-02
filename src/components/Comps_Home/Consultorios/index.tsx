@@ -1,7 +1,9 @@
 'use client'
 
 import React, { useEffect, useRef } from 'react'
+import LazyLoad from 'react-lazyload'
 
+import Placeholder from 'components/Placeholder'
 import Title from 'components/Ui/CustomTitle'
 import Headline from 'components/Ui/Headline'
 
@@ -65,12 +67,20 @@ export default function Consultorios() {
             <ViewCardsConsultorios ref={carouselRef}>
               <InnerCardConsultorio>
                 <HeadCardConsultorio>
-                  <FrameCardConsultorio
-                    src={BGV1}
-                    alt='Consultório Sintra SaúdePsi Image'
-                    title='Consultório Sintra SaúdePsi'
-                    priority={true}
-                  />
+                  <LazyLoad
+                    height={200}
+                    offset={100}
+                    once
+                    debounce={500}
+                    placeholder={<Placeholder />}
+                  >
+                    <FrameCardConsultorio
+                      src={BGV1}
+                      alt='Consultório Sintra SaúdePsi Image'
+                      title='Consultório Sintra SaúdePsi'
+                      priority={true}
+                    />
+                  </LazyLoad>
                 </HeadCardConsultorio>
                 {/*  */}
                 <BodyCardConsultorio>
@@ -103,12 +113,20 @@ export default function Consultorios() {
               {/*  */}
               <InnerCardConsultorio>
                 <HeadCardConsultorio>
-                  <FrameCardConsultorio
-                    src={BGV2}
-                    alt='Consultório Lisboa SaúdePsi Image'
-                    title='Consultório Lisboa SaúdePsi'
-                    priority={true}
-                  />
+                  <LazyLoad
+                    height={200}
+                    offset={100}
+                    once
+                    debounce={500}
+                    placeholder={<Placeholder />}
+                  >
+                    <FrameCardConsultorio
+                      src={BGV2}
+                      alt='Consultório Lisboa SaúdePsi Image'
+                      title='Consultório Lisboa SaúdePsi'
+                      priority={true}
+                    />
+                  </LazyLoad>
                 </HeadCardConsultorio>
                 {/*  */}
                 <BodyCardConsultorio>
@@ -141,28 +159,36 @@ export default function Consultorios() {
               {/*  */}
               <InnerCardConsultorio>
                 <HeadCardConsultorio>
-                  <FrameCardConsultorio
-                    src={BGV3}
-                    alt='Consultório Lisboa SaúdePsi Image'
-                    title='Consultório Lisboa SaúdePsi'
-                    priority={true}
-                  />
+                  <LazyLoad
+                    height={200}
+                    offset={100}
+                    once
+                    debounce={500}
+                    placeholder={<Placeholder />}
+                  >
+                    <FrameCardConsultorio
+                      src={BGV3}
+                      alt='Consultório Lisboa SaúdePsi Image'
+                      title='Consultório Lisboa SaúdePsi'
+                      priority={true}
+                    />
+                  </LazyLoad>
                 </HeadCardConsultorio>
                 {/*  */}
                 <BodyCardConsultorio>
-                  <Title title={DocHome.Consultorios.Cards.LisboaA.Titulo} />
+                  <Title title={DocHome.Consultorios.Cards.Alverca.Titulo} />
 
                   {/* Headline */}
                   <Headline
-                    title={DocHome.Consultorios.Cards.LisboaA.Headline.Titulo}
-                    text={DocHome.Consultorios.Cards.LisboaA.Headline.Descrição}
+                    title={DocHome.Consultorios.Cards.Alverca.Headline.Titulo}
+                    text={DocHome.Consultorios.Cards.Alverca.Headline.Descrição}
                   />
                   {/* Headline */}
 
                   {/* Headline */}
                   <Headline
-                    title={DocHome.Consultorios.Cards.LisboaA.Horario.Titulo}
-                    text={DocHome.Consultorios.Cards.LisboaA.Horario.Descrição}
+                    title={DocHome.Consultorios.Cards.Alverca.Horario.Titulo}
+                    text={DocHome.Consultorios.Cards.Alverca.Horario.Descrição}
                   />
                   {/* Headline */}
 
@@ -179,12 +205,20 @@ export default function Consultorios() {
               {/*  */}
               <InnerCardConsultorio>
                 <HeadCardConsultorio>
-                  <FrameCardConsultorio
-                    src={BGV4}
-                    alt='Consultório Oeiras SaúdePsi Image'
-                    title='Consultório Oeiras SaúdePsi'
-                    priority={true}
-                  />
+                  <LazyLoad
+                    height={200}
+                    offset={100}
+                    once
+                    debounce={500}
+                    placeholder={<Placeholder />}
+                  >
+                    <FrameCardConsultorio
+                      src={BGV4}
+                      alt='Consultório Oeiras SaúdePsi Image'
+                      title='Consultório Oeiras SaúdePsi'
+                      priority={true}
+                    />
+                  </LazyLoad>
                 </HeadCardConsultorio>
                 {/*  */}
                 <BodyCardConsultorio>

@@ -240,6 +240,9 @@ export const FrameCardConsultorio = styled(Image)`
   width: 100%;
   height: auto;
 
+  display: block;
+  margin: auto;
+
   object-fit: contain;
   -o-object-fit: contain;
   object-position: center;

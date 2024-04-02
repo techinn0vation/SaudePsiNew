@@ -307,10 +307,11 @@ export const FrameCardAreaDeIntervenção = styled(Image)`
   width: 90%;
   height: auto;
 
+  display: block;
+  margin: auto;
+
   object-fit: contain;
   -o-object-fit: contain;
   object-position: center;
   -o-object-position: center;
-
-  /* box-shadow: 1rem 1rem 0 0 ${(props) => props.theme.colors.Verde}; */
 `

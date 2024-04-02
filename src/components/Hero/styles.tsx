@@ -194,7 +194,7 @@ export const BlockContentHero = styled.div`
 `
 export const FrameHero = styled(Image)`
   width: 90%;
-  height: auto;
+  height: 425px;
 
   object-fit: contain;
   -o-object-fit: contain;

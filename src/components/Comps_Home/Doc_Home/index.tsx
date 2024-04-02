@@ -196,7 +196,8 @@ const DocHome = {
 
         Headline: {
           Titulo: 'morada',
-          Descrição: 'avenida de Berna nº 35, 4º Esq.'
+          Descrição:
+            'avenida Duque de Ávila n° 28, 3° Andar 1000-141, Sala 305 Lisboa'
         },
 
         Horario: {
@@ -211,12 +212,12 @@ const DocHome = {
         }
       },
 
-      LisboaA: {
-        Titulo: 'consultas em Lisboa',
+      Alverca: {
+        Titulo: 'consultas em Alverca',
 
         Headline: {
           Titulo: 'morada',
-          Descrição: 'avenida Duque d´Ávila, nº 64- 7ºC'
+          Descrição: 'Rua da Aboboreira n° 2 Loja Esq, 2625-670 Vialonga'
         },
 
         Horario: {

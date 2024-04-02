@@ -1,7 +1,9 @@
 'use client'
 
 import React, { useEffect } from 'react'
+import LazyLoad from 'react-lazyload'
 
+import Placeholder from 'components/Placeholder'
 import Headline from 'components/Ui/Headline'
 
 import DocHome from '../Doc_Home'
@@ -55,12 +57,20 @@ export default function AreaDeIntervenção() {
             <InnerCardAreaDeIntervenção id='BlockCardIntervenção'>
               {/* Head Card AreaDeIntervenção */}
               <HeadCardAreaDeIntervenção>
-                <FrameCardAreaDeIntervenção
-                  src={BGV1}
-                  alt='Àrea de Intervenção Depressão SaúdePsi'
-                  title='Àrea de Intervenção Depressão SaúdePsi'
-                  priority={true}
-                />
+                <LazyLoad
+                  height={200}
+                  offset={100}
+                  once
+                  debounce={500}
+                  placeholder={<Placeholder />}
+                >
+                  <FrameCardAreaDeIntervenção
+                    src={BGV1}
+                    alt='Àrea de Intervenção Depressão SaúdePsi'
+                    title='Àrea de Intervenção Depressão SaúdePsi'
+                    priority={true}
+                  />
+                </LazyLoad>
               </HeadCardAreaDeIntervenção>
               {/* Head Card AreaDeIntervenção */}
               {/* Body Card AreaDeIntervenção */}
@@ -80,12 +90,20 @@ export default function AreaDeIntervenção() {
             <InnerCardAreaDeIntervenção id='BlockCardIntervenção'>
               {/* Head Card AreaDeIntervenção */}
               <HeadCardAreaDeIntervenção>
-                <FrameCardAreaDeIntervenção
-                  src={BGV2}
-                  alt='Àrea de Intervenção Depressão  Infantil SaúdePsi'
-                  title='Àrea de Intervenção Depressão Infantil SaúdePsi'
-                  priority={true}
-                />
+                <LazyLoad
+                  height={200}
+                  offset={100}
+                  once
+                  debounce={500}
+                  placeholder={<Placeholder />}
+                >
+                  <FrameCardAreaDeIntervenção
+                    src={BGV2}
+                    alt='Àrea de Intervenção Depressão  Infantil SaúdePsi'
+                    title='Àrea de Intervenção Depressão Infantil SaúdePsi'
+                    priority={true}
+                  />
+                </LazyLoad>
               </HeadCardAreaDeIntervenção>
               {/* Head Card AreaDeIntervenção */}
               {/* Body Card AreaDeIntervenção */}
@@ -108,12 +126,20 @@ export default function AreaDeIntervenção() {
             <InnerCardAreaDeIntervenção id='BlockCardIntervenção'>
               {/* Head Card AreaDeIntervenção */}
               <HeadCardAreaDeIntervenção>
-                <FrameCardAreaDeIntervenção
-                  src={BGV3}
-                  alt='Àrea de Intervenção Ansiedade e Pânico SaúdePsi'
-                  title='Àrea de Intervenção Ansiedade e Pânico SaúdePsi'
-                  priority={true}
-                />
+                <LazyLoad
+                  height={200}
+                  offset={100}
+                  once
+                  debounce={500}
+                  placeholder={<Placeholder />}
+                >
+                  <FrameCardAreaDeIntervenção
+                    src={BGV3}
+                    alt='Àrea de Intervenção Ansiedade e Pânico SaúdePsi'
+                    title='Àrea de Intervenção Ansiedade e Pânico SaúdePsi'
+                    priority={true}
+                  />
+                </LazyLoad>
               </HeadCardAreaDeIntervenção>
               {/* Head Card AreaDeIntervenção */}
               {/* Body Card AreaDeIntervenção */}

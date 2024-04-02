@@ -188,7 +188,7 @@ export const BlockProfile = styled.div`
 `
 export const FrameProfile = styled(Image)`
   width: 10rem;
-  height: auto;
+  height: 10rem;
 
   object-fit: contain;
   -o-object-fit: contain;

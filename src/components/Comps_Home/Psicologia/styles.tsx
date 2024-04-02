@@ -289,28 +289,16 @@ export const HeadCardPsicologia = styled.div`
   align-items: center;
 
   position: relative;
-
-  /* &::after {
-    content: '';
-    width: 10rem;
-    height: 10rem;
-    margin: 1.6rem 0;
-    background-color: ${(props) => props.theme.colors.VerdeEscuro};
-
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-  } */
 `
 export const FrameCardPsicologia = styled(Image)`
   width: 90%;
   height: auto;
 
+  display: block;
+  margin: auto;
+
   object-fit: contain;
   -o-object-fit: contain;
   object-position: center;
   -o-object-position: center;
-
-  /* box-shadow: 1rem 1rem 0 0 ${(props) => props.theme.colors.Verde}; */
 `
