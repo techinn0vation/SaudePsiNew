@@ -16,7 +16,6 @@ export default function Meta({ title, description }: MetaProps) {
         <meta httpEquiv='X-UA-Compatible' content='Chrome' />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <meta httpEquiv='Content-Language' content='pt_PT' />
-
         <meta name='description' content={description} />
         <meta
           name='keywords'
@@ -26,7 +25,6 @@ export default function Meta({ title, description }: MetaProps) {
           name='author'
           content='InovaSoft Digital - Marketing e Publicidade'
         />
-
         <meta property='og:url' content='https://saudepsi.pt' />
         <meta property='og:locale' content='pt_PT' />
         <meta property='og:type' content='website' />
@@ -36,10 +34,12 @@ export default function Meta({ title, description }: MetaProps) {
           property='og:image'
           content='https://saudepsi.pt/consulta-de-psicologia-intro.jpg'
         />
-
         <title>{title}</title>
-
-        <link rel='icon' href='assets/img/Icon.png' type='image/x-icon'></link>
+        <link
+          rel='shortcut icon'
+          href='/assets/img/Brasao.png'
+          type='image/png'
+        />{' '}
       </Helmet>
     </>
   )
