@@ -4,13 +4,13 @@ import React, { useEffect } from 'react'
 
 import Headline from 'components/Ui/Headline'
 
+import ScrollAnimationHome from '../AnimationHome'
 import DocHome from '../Doc_Home'
 import {
   BodyCardAreaDeIntervenção,
   ContentAreaDeIntervenção,
   FrameCardAreaDeIntervenção,
   HeadCardAreaDeIntervenção,
-  InnerCardAreaDeIntervenção,
   ViewAreaDeIntervenção,
   WrapperCardsAreaDeIntervenção,
   WrapperAreaDeIntervenção
@@ -52,7 +52,7 @@ export default function AreaDeIntervenção() {
           {/* Cards AreaDeIntervenção */}
           <WrapperCardsAreaDeIntervenção>
             {/* Card AreaDeIntervenção */}
-            <InnerCardAreaDeIntervenção id='BlockCardIntervenção'>
+            <ScrollAnimationHome>
               {/* Head Card AreaDeIntervenção */}
               <HeadCardAreaDeIntervenção>
                 <FrameCardAreaDeIntervenção
@@ -75,9 +75,9 @@ export default function AreaDeIntervenção() {
                 />
               </BodyCardAreaDeIntervenção>
               {/* Body Card AreaDeIntervenção */}
-            </InnerCardAreaDeIntervenção>
+            </ScrollAnimationHome>
             {/* Card AreaDeIntervenção */}
-            <InnerCardAreaDeIntervenção id='BlockCardIntervenção'>
+            <ScrollAnimationHome>
               {/* Head Card AreaDeIntervenção */}
               <HeadCardAreaDeIntervenção>
                 <FrameCardAreaDeIntervenção
@@ -102,10 +102,10 @@ export default function AreaDeIntervenção() {
                 />
               </BodyCardAreaDeIntervenção>
               {/* Body Card AreaDeIntervenção */}
-            </InnerCardAreaDeIntervenção>
+            </ScrollAnimationHome>
             {/* Card AreaDeIntervenção */}
             {/* Card AreaDeIntervenção */}
-            <InnerCardAreaDeIntervenção id='BlockCardIntervenção'>
+            <ScrollAnimationHome>
               {/* Head Card AreaDeIntervenção */}
               <HeadCardAreaDeIntervenção>
                 <FrameCardAreaDeIntervenção
@@ -130,7 +130,7 @@ export default function AreaDeIntervenção() {
                 />
               </BodyCardAreaDeIntervenção>
               {/* Body Card AreaDeIntervenção */}
-            </InnerCardAreaDeIntervenção>
+            </ScrollAnimationHome>
             {/* Card AreaDeIntervenção */}
           </WrapperCardsAreaDeIntervenção>
           {/* Cards AreaDeIntervenção */}

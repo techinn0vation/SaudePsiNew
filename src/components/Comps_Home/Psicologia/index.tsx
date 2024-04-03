@@ -1,16 +1,14 @@
 'use client'
 
-import React, { useEffect } from 'react'
-
 import Headline from 'components/Ui/Headline'
 
+import ScrollAnimationHome from '../AnimationHome'
 import DocHome from '../Doc_Home'
 import {
   BodyCardPsicologia,
   ContentPsicologia,
   FrameCardPsicologia,
   HeadCardPsicologia,
-  InnerCardPsicologia,
   ViewPsicologia,
   WrapperCardsPsicologia,
   WrapperPsicologia
@@ -20,28 +18,8 @@ import BGV2 from 'assets/img/Adolecente.webp'
 import BGV3 from 'assets/img/Adulto.webp'
 import BGV4 from 'assets/img/Idoso.webp'
 import BGV1 from 'assets/img/Infatil.webp'
-import { gsap } from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
 export default function Psicologia() {
-  useEffect(() => {
-    gsap.registerPlugin(ScrollTrigger)
-
-    const blocks = document.querySelectorAll(`#BlockCardPsicologia`)
-
-    blocks.forEach((block) => {
-      gsap.to(block, {
-        opacity: 0,
-        scrollTrigger: {
-          trigger: block,
-          start: 'top top',
-          end: '+=5',
-          toggleActions: 'play none none reverse'
-        }
-      })
-    })
-  }, [])
-
   return (
     <WrapperPsicologia>
       <ContentPsicologia>
@@ -53,7 +31,7 @@ export default function Psicologia() {
           {/* Cards Psicologia */}
           <WrapperCardsPsicologia>
             {/* Card Psicologia */}
-            <InnerCardPsicologia id='BlockCardPsicologia'>
+            <ScrollAnimationHome>
               {/* Head Card Psicologia */}
               <HeadCardPsicologia>
                 <FrameCardPsicologia
@@ -74,9 +52,9 @@ export default function Psicologia() {
                 />
               </BodyCardPsicologia>
               {/* Body Card Psicologia */}
-            </InnerCardPsicologia>
+            </ScrollAnimationHome>
             {/* Card Psicologia */}
-            <InnerCardPsicologia id='BlockCardPsicologia'>
+            <ScrollAnimationHome>
               {/* Head Card Psicologia */}
               <HeadCardPsicologia>
                 <FrameCardPsicologia
@@ -99,10 +77,10 @@ export default function Psicologia() {
                 />
               </BodyCardPsicologia>
               {/* Body Card Psicologia */}
-            </InnerCardPsicologia>
+            </ScrollAnimationHome>
             {/* Card Psicologia */}
             {/* Card Psicologia */}
-            <InnerCardPsicologia id='BlockCardPsicologia'>
+            <ScrollAnimationHome>
               {/* Head Card Psicologia */}
               <HeadCardPsicologia>
                 <FrameCardPsicologia
@@ -121,10 +99,10 @@ export default function Psicologia() {
                 />
               </BodyCardPsicologia>
               {/* Body Card Psicologia */}
-            </InnerCardPsicologia>
+            </ScrollAnimationHome>
             {/* Card Psicologia */}
             {/* Card Psicologia */}
-            <InnerCardPsicologia id='BlockCardPsicologia'>
+            <ScrollAnimationHome>
               {/* Head Card Psicologia */}
               <HeadCardPsicologia>
                 <FrameCardPsicologia
@@ -143,7 +121,7 @@ export default function Psicologia() {
                 />
               </BodyCardPsicologia>
               {/* Body Card Psicologia */}
-            </InnerCardPsicologia>
+            </ScrollAnimationHome>
             {/* Card Psicologia */}
           </WrapperCardsPsicologia>
           {/* Cards Psicologia */}
