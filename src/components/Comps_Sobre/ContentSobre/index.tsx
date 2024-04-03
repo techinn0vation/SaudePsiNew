@@ -142,3 +142,5 @@ export default function Sobre() {
     </WrapperPageSobre>
   )
 }
+
+// Componente da pag Sobre é a unica que não possui a animação "ScrollAnimationHome", pelo simples fato de sua configuração css

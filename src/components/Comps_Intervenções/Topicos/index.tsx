@@ -1,7 +1,6 @@
 'use client'
 
-import React, { useEffect } from 'react'
-
+import ScrollAnimationHome from 'components/Comps_Home/AnimationHome'
 import Headline from 'components/Ui/Headline'
 
 import DocIntervenções from '../Doc_Intervenções'
@@ -10,7 +9,6 @@ import {
   ContentTopicos,
   FrameCardTopicos,
   HeadCardTopicos,
-  InnerCardTopicos,
   ViewTopicos,
   WrapperCardsTopicos,
   WrapperTopicos
@@ -21,28 +19,8 @@ import BGV2 from 'assets/img/Bipolar.webp'
 import BGV5 from 'assets/img/Bulimia.webp'
 import BGV3 from 'assets/img/Obsessivo.webp'
 import BGV1 from 'assets/img/Personalidade.webp'
-import { gsap } from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
 export default function Topicos() {
-  useEffect(() => {
-    gsap.registerPlugin(ScrollTrigger)
-
-    const blocks = document.querySelectorAll(`#BlockCardTopicos`)
-
-    blocks.forEach((block) => {
-      gsap.to(block, {
-        opacity: 0,
-        scrollTrigger: {
-          trigger: block,
-          start: 'top top',
-          end: '+=5',
-          toggleActions: 'play none none reverse'
-        }
-      })
-    })
-  }, [])
-
   return (
     <WrapperTopicos>
       <ContentTopicos>
@@ -54,7 +32,7 @@ export default function Topicos() {
           {/* Cards Topicos */}
           <WrapperCardsTopicos>
             {/* Card Topicos */}
-            <InnerCardTopicos id='BlockCardTopicos'>
+            <ScrollAnimationHome>
               {/* Head Card Topicos */}
               <HeadCardTopicos>
                 <FrameCardTopicos
@@ -73,9 +51,9 @@ export default function Topicos() {
                 />
               </BodyCardTopicos>
               {/* Body Card Topicos */}
-            </InnerCardTopicos>
+            </ScrollAnimationHome>
             {/* Card Topicos */}
-            <InnerCardTopicos id='BlockCardTopicos'>
+            <ScrollAnimationHome>
               {/* Head Card Topicos */}
               <HeadCardTopicos>
                 <FrameCardTopicos
@@ -94,10 +72,10 @@ export default function Topicos() {
                 />
               </BodyCardTopicos>
               {/* Body Card Topicos */}
-            </InnerCardTopicos>
+            </ScrollAnimationHome>
             {/* Card Topicos */}
             {/* Card Topicos */}
-            <InnerCardTopicos id='BlockCardTopicos'>
+            <ScrollAnimationHome>
               {/* Head Card Topicos */}
               <HeadCardTopicos>
                 <FrameCardTopicos
@@ -116,10 +94,10 @@ export default function Topicos() {
                 />
               </BodyCardTopicos>
               {/* Body Card Topicos */}
-            </InnerCardTopicos>
+            </ScrollAnimationHome>
             {/* Card Topicos */}
             {/* Card Topicos */}
-            <InnerCardTopicos id='BlockCardTopicos'>
+            <ScrollAnimationHome>
               {/* Head Card Topicos */}
               <HeadCardTopicos>
                 <FrameCardTopicos
@@ -138,9 +116,9 @@ export default function Topicos() {
                 />
               </BodyCardTopicos>
               {/* Body Card Topicos */}
-            </InnerCardTopicos>
+            </ScrollAnimationHome>
             {/* Card Topicos */}
-            <InnerCardTopicos id='BlockCardTopicos'>
+            <ScrollAnimationHome>
               {/* Head Card Topicos */}
               <HeadCardTopicos>
                 <FrameCardTopicos
@@ -159,7 +137,7 @@ export default function Topicos() {
                 />
               </BodyCardTopicos>
               {/* Body Card Topicos */}
-            </InnerCardTopicos>
+            </ScrollAnimationHome>
             {/* Card Topicos */}
           </WrapperCardsTopicos>
           {/* Cards Topicos */}
