@@ -55,9 +55,11 @@ export const ViewLogoBranding = styled.div`
 
 export const LogoBranding = styled(Image)`
   width: 100%;
-  max-width: 16.6rem;
-  margin: 0 auto;
+  max-width: 19.2rem;
   height: auto;
+
+  display: block;
+  margin: auto;
 
   object-fit: contain;
   -o-object-fit: contain;

@@ -56,7 +56,11 @@ export const ContentFooter = styled.main`
 `
 export const FrameLogoFooter = styled(Image)`
   width: 18rem;
+  max-width: 19.2rem;
   height: auto;
+
+  display: block;
+  margin: auto;
 
   object-fit: contain;
   -o-object-fit: contain;
