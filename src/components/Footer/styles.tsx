@@ -127,6 +127,12 @@ export const InnerBlockFooter = styled.div`
   align-items: center;
   gap: 1.6rem;
 
+  .email {
+    &::first-letter {
+      text-transform: lowercase;
+    }
+  }
+
   @media (min-width: ${(props) => props.theme.screenSize.MD}) {
     justify-content: start;
     align-items: start;

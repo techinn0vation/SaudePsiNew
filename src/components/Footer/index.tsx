@@ -40,7 +40,7 @@ export default function Footer() {
                 href='/home'
                 title='Psicologia do Adolescente SaúdePsi'
               >
-                psicologia do Adolecente
+                psicologia do Adolescente
               </ButtonLinkFooter>
               <ButtonLinkFooter
                 href='/home'
@@ -105,6 +105,7 @@ export default function Footer() {
               <ButtonLinkFooter
                 href={DocHome.Footer.Contactos.Email}
                 title='Contacto E-mail SaúdePsi'
+                className='email'
               >
                 geral@saudepsi.pt
               </ButtonLinkFooter>

@@ -28,7 +28,7 @@ const DocContacto = {
   Value: {
     Selecione: 'Escolha uma Consulta',
     PsicologiaInfantil: 'Psicologia Infantil',
-    PsicologiaAdolecente: 'Psicologia do Adolecente',
+    PsicologiaAdolecente: 'Psicologia do Adolescente',
     PsicologiaAdulto: 'Psicologia do Adulto',
     PsicologiaIdoso: 'Psicologia do Idoso',
     AvaliaçãoPsicologica: 'Avaliação Psicológica',

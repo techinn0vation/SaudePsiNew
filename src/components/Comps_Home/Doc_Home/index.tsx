@@ -26,7 +26,7 @@ const DocHome = {
       },
       PsicAdolecente: {
         Headline: {
-          Titulo: 'psicologia do adolecente',
+          Titulo: 'psicologia do Adolescente',
           Descrição:
             'os adolescentes enfrentam desafios para estabelecer e manter relações interpessoais saudáveis, tanto com os pares como com os adultos. A psicologia do adolescente aborda questões relacionadas ao desenvolvimento social, habilidades de comunicação e resolução de conflitos.'
         }
@@ -213,7 +213,7 @@ const DocHome = {
       },
 
       Alverca: {
-        Titulo: 'consultas em Alverca',
+        Titulo: 'consultas em Vila Franca de Xira',
 
         Headline: {
           Titulo: 'morada',
