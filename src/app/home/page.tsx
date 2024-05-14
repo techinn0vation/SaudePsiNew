@@ -9,7 +9,7 @@ import {
   Psicoterapia
 } from 'components/GeralComponents'
 
-import BGHero from 'assets/img/Problem.webp'
+import BGHero from 'assets/img/Sofa.webp'
 
 export default function HomePage() {
   return (

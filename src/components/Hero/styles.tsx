@@ -209,10 +209,10 @@ export const FrameHero = styled(Image)`
   }
 
   @media (min-width: ${(props) => props.theme.screenSize.MD}) {
-    width: 43rem;
+    width: 44rem;
   }
 
   @media (min-width: ${(props) => props.theme.screenSize.XXL}) {
-    width: 45rem;
+    width: 48rem;
   }
 `
