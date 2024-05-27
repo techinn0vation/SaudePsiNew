@@ -1,6 +1,5 @@
 'use client'
 
-// import Script from 'next/script'
 import { Helmet } from 'react-helmet'
 
 interface MetaProps {
@@ -43,10 +42,6 @@ export default function Meta({ title, description }: MetaProps) {
           sizes='32x32'
           type='image/png'
         />
-        {/* <Script
-          async
-          src='https://www.googletagmanager.com/gtag/js?id=G-N576E27H19'
-        /> */}
       </Helmet>
     </>
   )

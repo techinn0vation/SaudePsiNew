@@ -1,23 +1,22 @@
-//  import React from 'react'
+import Script from 'next/script'
+import React from 'react'
 
-//  const Analytics = () => (
-//    <>
-//      <script
-//        async
-//        src='https:www.googletagmanager.com/gtag/js?id=G-N576E27H19'
-//      ></script>
-//      <script
-//        dangerouslySetInnerHTML={{
-//          __html: `
-//          window.dataLayer = window.dataLayer || [];
-//    function gtag(){dataLayer.push(arguments);}
-//    gtag('js', new Date());
+const Analytics = () => (
+  <>
+    <Script
+      async
+      src='https://www.googletagmanager.com/gtag/js?id=G-L1S6MDPDRK'
+    />
+    <Script id='google-analytics'>
+      {`
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-//    gtag('config', 'G-N576E27H19');
-//     `
-//        }}
-//      />
-//    </>
-//  )
+        gtag('config', 'G-L1S6MDPDRK');                
+      `}
+    </Script>
+  </>
+)
 
-//  export default Analytics
+export default Analytics

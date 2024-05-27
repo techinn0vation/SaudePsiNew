@@ -1,16 +1,15 @@
 'use client'
 
-import Script from 'next/script'
+// import Script from 'next/script'
 import React, { ReactNode } from 'react'
 
-// import Analytics from 'components/Analytics'
+import Analytics from 'components/Analytics'
 import Footer from 'components/Footer'
 import Menu from 'components/Menu'
 import { ThemeProvider } from 'styled-components'
 
 import { Container } from './styles'
 
-// import { GoogleAnalytics } from '@next/third-parties/google'
 import StyledComponentsRegistry from 'app/registry'
 import { mainFont } from 'styles/FontConfig'
 import { GlobalStyle } from 'styles/global'
@@ -24,7 +23,7 @@ export const Layout = ({ children }: LayoutProps) => {
     <StyledComponentsRegistry>
       <ThemeProvider theme={theme}>
         <html lang='pt-pt'>
-          <head>
+          {/* <head>
             <Script
               async
               src='https://www.googletagmanager.com/gtag/js?id=G-L1S6MDPDRK'
@@ -37,14 +36,13 @@ export const Layout = ({ children }: LayoutProps) => {
 
  gtag('config', 'G-L1S6MDPDRK');                `}
             </Script>
-          </head>
+          </head> */}
           <body className={mainFont.className}>
             <Container>
               <Menu />
               {children}
               <Footer />
-              {/* <GoogleAnalytics gaId='G-N576E27H19' /> */}
-              {/* <Analytics /> */}
+              <Analytics />
             </Container>
           </body>
         </html>
