@@ -43,15 +43,15 @@ export default function Meta({ title, description }: MetaProps) {
         />
         <script
           async
-          src='https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_TRACKING}'
-        ></script>
+          src='https://www.googletagmanager.com/gtag/js?id=G-N576E27H19'
+        />
         <script
           dangerouslySetInnerHTML={{
             __html: `
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', '${process.env.NEXT_PUBLIC_GA_TRACKING}', {
+  gtag('config', 'G-N576E27H19'), {
     page_path: window.location.pathname,
   })
   `
