@@ -2,7 +2,7 @@
 
 import React, { ReactNode } from 'react'
 
-import Analytics from 'components/Analytics'
+// import Analytics from 'components/Analytics'
 import Footer from 'components/Footer'
 import Menu from 'components/Menu'
 import { ThemeProvider } from 'styled-components'
@@ -27,7 +27,7 @@ export const Layout = ({ children }: LayoutProps) => {
               <Menu />
               {children}
               <Footer />
-              <Analytics />
+              {/* <Analytics /> */}
             </Container>
           </body>
         </html>
