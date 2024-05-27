@@ -92,14 +92,14 @@ export const RowHamburger = styled.div<RowHamburgerProps>`
   height: 0.2rem;
   background: ${(props) => props.theme.colors.Branco};
   position: relative;
-  transform: ${(props) => (props.active ? 'rotate(45deg)' : 'none')};
+  /* transform: ${(props) => (props.active ? 'rotate(45deg)' : 'none')}; */
   border-radius: 0.2rem;
   transition: transform 0.3s ease;
   -webkit-transition: -webkit-transform 0.3s ease;
   z-index: 6;
 
   &:nth-child(-n + 2) {
-    display: ${(props) => (props.active ? 'none' : 'block')};
+    /* display: ${(props) => (props.active ? 'none' : 'block')}; */
   }
 
   &:before,
@@ -111,12 +111,12 @@ export const RowHamburger = styled.div<RowHamburgerProps>`
     position: absolute;
   }
   &:before {
-    transform: ${(props) => (props.active ? 'rotate(-90deg)' : 'none')};
+    /* transform: ${(props) => (props.active ? 'rotate(-90deg)' : 'none')}; */
     transition: transform 0.3s ease;
     -webkit-transition: -webkit-transform 0.3s ease;
   }
   &:after {
-    transform: ${(props) => (props.active ? 'rotate(90deg)' : 'none')};
+    /* transform: ${(props) => (props.active ? 'rotate(90deg)' : 'none')}; */
     transition: transform 0.3s ease;
     -webkit-transition: -webkit-transform 0.3s ease;
   }
@@ -132,7 +132,7 @@ export const WrapperLinks = styled.div<RowHamburgerProps>`
   align-items: end;
 
   position: fixed;
-  left: ${({ active }) => (active ? '0' : '100%')};
+  /* left: ${({ active }) => (active ? '0' : '100%')}; */
   top: 0;
   transition: left 0.2s ease-in;
   -webkit-transition: left 0.2s ease-in-out;
