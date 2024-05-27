@@ -27,7 +27,7 @@ export const Layout = ({ children }: LayoutProps) => {
           <head>
             <Script
               async
-              src='https://www.googletagmanager.com/gtag/js?id=G-N576E27H19'
+              src='https://www.googletagmanager.com/gtag/js?id=G-L1S6MDPDRK'
             />
             <Script id='google-analytics'>
               {`
@@ -35,7 +35,7 @@ export const Layout = ({ children }: LayoutProps) => {
  function gtag(){dataLayer.push(arguments);}
  gtag('js', new Date());
 
- gtag('config', 'G-N576E27H19');                `}
+ gtag('config', 'G-L1S6MDPDRK');                `}
             </Script>
           </head>
           <body className={mainFont.className}>
