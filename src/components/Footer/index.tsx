@@ -1,5 +1,7 @@
 'use client'
 
+import { FaInstagram, FaWhatsapp } from 'react-icons/fa'
+
 import DocHome from 'components/Comps_Home/Doc_Home'
 import Text from 'components/Ui/CustomText'
 import Title from 'components/Ui/CustomTitle'
@@ -11,12 +13,20 @@ import {
   FrameLogoFooter,
   InnerBlockFooter,
   ViewFooter,
-  WrapperFooter
+  WrapperFooter,
+  WrapperSocialFields
 } from './styles'
 
 import BGV1 from 'assets/img/Brand.png'
 
 export default function Footer() {
+  // Configuração do botão WhatsApp
+  const message = encodeURIComponent(
+    'Olá, gostaria de agendar uma consulta de Psicologia/Psicoterapia.'
+  )
+  const phoneNumber = '351968579797'
+  const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`
+
   return (
     <WrapperFooter>
       <ContentFooter>
@@ -105,13 +115,31 @@ export default function Footer() {
               <ButtonLinkFooter
                 href={DocHome.Footer.Contactos.Email}
                 title='Contacto E-mail SaúdePsi'
-                className='email'
               >
                 geral@saudepsi.pt
               </ButtonLinkFooter>
             </InnerBlockFooter>
           </BlockFooter>
         </ViewFooter>
+        {/*  */}
+        <BlockFooter>
+          <Title title='Siga-nos nas nossas redes sociais' />
+          <WrapperSocialFields>
+            <ButtonLinkFooter
+              href={whatsappUrl}
+              title='WhatsApp SaúdePsi Consultas de Psicologia e Psicoterapia'
+            >
+              <FaWhatsapp />
+            </ButtonLinkFooter>
+            <ButtonLinkFooter
+              href=''
+              title='Instagram SaúdePsi Consultas de Psicologia e Psicoterapia'
+            >
+              <FaInstagram />
+            </ButtonLinkFooter>
+          </WrapperSocialFields>
+        </BlockFooter>
+        {/*  */}
         <Text
           text='copyright © 2024. Todos os direitos reservados à '
           onClick={() => {}}

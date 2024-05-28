@@ -215,7 +215,7 @@ export const ViewCardsConsultorios = styled.div`
 
 export const InnerCardConsultorio = styled.div`
   width: 100%;
-  height: 58.6rem;
+  height: 61.6rem;
 
   display: flex;
   flex-direction: column;

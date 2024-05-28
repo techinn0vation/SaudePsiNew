@@ -150,19 +150,25 @@ export default function Consultorios() {
                 </HeadCardConsultorio>
                 {/*  */}
                 <BodyCardConsultorio>
-                  <Title title={DocHome.Consultorios.Cards.Alverca.Titulo} />
+                  <Title title={DocHome.Consultorios.Cards.VilaFrança.Titulo} />
 
                   {/* Headline */}
                   <Headline
-                    title={DocHome.Consultorios.Cards.Alverca.Headline.Titulo}
-                    text={DocHome.Consultorios.Cards.Alverca.Headline.Descrição}
+                    title={
+                      DocHome.Consultorios.Cards.VilaFrança.Headline.Titulo
+                    }
+                    text={
+                      DocHome.Consultorios.Cards.VilaFrança.Headline.Descrição
+                    }
                   />
                   {/* Headline */}
 
                   {/* Headline */}
                   <Headline
-                    title={DocHome.Consultorios.Cards.Alverca.Horario.Titulo}
-                    text={DocHome.Consultorios.Cards.Alverca.Horario.Descrição}
+                    title={DocHome.Consultorios.Cards.VilaFrança.Horario.Titulo}
+                    text={
+                      DocHome.Consultorios.Cards.VilaFrança.Horario.Descrição
+                    }
                   />
                   {/* Headline */}
 

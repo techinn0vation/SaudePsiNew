@@ -147,8 +147,8 @@ export default function ConsultasOnline() {
                 {/* Body Card Psicologia */}
                 <BodyCardPsicologia>
                   <Headline
-                    title={DocConsultasOnline.Recuros.Titulo}
-                    text={DocConsultasOnline.Recuros.Descrição}
+                    title={DocConsultasOnline.Recursos.Titulo}
+                    text={DocConsultasOnline.Recursos.Descrição}
                   />
                 </BodyCardPsicologia>
                 {/* Body Card Psicologia */}

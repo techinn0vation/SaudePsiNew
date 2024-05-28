@@ -69,10 +69,10 @@ export default function Psicologia() {
               <BodyCardPsicologia>
                 <Headline
                   title={
-                    DocHome.Psicologia.Cards.PsicAdolecente.Headline.Titulo
+                    DocHome.Psicologia.Cards.PsicAdolescente.Headline.Titulo
                   }
                   text={
-                    DocHome.Psicologia.Cards.PsicAdolecente.Headline.Descrição
+                    DocHome.Psicologia.Cards.PsicAdolescente.Headline.Descrição
                   }
                 />
               </BodyCardPsicologia>

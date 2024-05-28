@@ -111,6 +111,14 @@ export const BlockFooter = styled.div`
     }
   }
 
+  &:nth-of-type(3) {
+    a:nth-child(3) {
+      &::first-letter {
+        text-transform: lowercase;
+      }
+    }
+  }
+
   @media (min-width: ${(props) => props.theme.screenSize.MD}) {
     justify-content: start;
     align-items: start;
@@ -156,8 +164,33 @@ export const ButtonLinkFooter = styled(Link)`
   }
 
   cursor: pointer;
+`
+// Redes Sociais
+export const WrapperSocialFields = styled.div`
+  width: 100%;
+  min-height: auto;
 
-  &::first-letter {
-    text-transform: capitalize;
+  display: flex;
+  flex-direction: row;
+  -ms-flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+  ${ButtonLinkFooter} {
+    display: flex;
+    flex-direction: row;
+    -ms-flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    border: solid 0.2rem ${(props) => props.theme.colors.VerdeEscuro};
+    border-radius: 100%;
+    padding: 0.9rem;
+
+    svg {
+      font-size: 2.4rem;
+      line-height: 3.6rem;
+    }
   }
 `

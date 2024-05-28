@@ -6,6 +6,7 @@ interface MetaProps {
   title: string
   description: string
 }
+
 export default function Meta({ title, description }: MetaProps) {
   return (
     <>
@@ -23,7 +24,7 @@ export default function Meta({ title, description }: MetaProps) {
         />
         <meta
           name='author'
-          content='InovaSoft Digital - Marketing e Publicidade'
+          content='InovaSoft Digital - Marketing e Publicidade Brazil'
         />
         <meta property='og:url' content='https://saudepsi.pt' />
         <meta property='og:locale' content='pt_PT' />

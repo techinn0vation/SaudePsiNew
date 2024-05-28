@@ -105,11 +105,11 @@ export default function Psicoterapia() {
                 <BodyCardPsicoterapia>
                   <Headline
                     title={
-                      DocHome.Psicoterapia.Cards.PsicDoAdolecente.Headline
+                      DocHome.Psicoterapia.Cards.PsicDoAdolescente.Headline
                         .Titulo
                     }
                     text={
-                      DocHome.Psicoterapia.Cards.PsicDoAdolecente.Headline
+                      DocHome.Psicoterapia.Cards.PsicDoAdolescente.Headline
                         .Descrição
                     }
                   />
