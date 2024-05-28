@@ -1,6 +1,5 @@
 'use client'
 
-// import Script from 'next/script'
 import React, { ReactNode } from 'react'
 
 import Analytics from 'components/Analytics'
@@ -24,20 +23,6 @@ export const Layout = ({ children }: LayoutProps) => {
     <StyledComponentsRegistry>
       <ThemeProvider theme={theme}>
         <html lang='pt-pt'>
-          {/* <head>
-            <Script
-              async
-              src='https://www.googletagmanager.com/gtag/js?id=G-L1S6MDPDRK'
-            />
-            <Script id='google-analytics'>
-              {`
- window.dataLayer = window.dataLayer || [];
- function gtag(){dataLayer.push(arguments);}
- gtag('js', new Date());
-
- gtag('config', 'G-L1S6MDPDRK');                `}
-            </Script>
-          </head> */}
           <body className={mainFont.className}>
             <Container>
               <Menu />
