@@ -175,7 +175,8 @@ const DocHome = {
 
         Headline: {
           Titulo: 'morada',
-          Descrição: 'Rua Coronel Melo Antunes n 64- R/c D'
+          Descrição:
+            'Rua Coronel Melo Antunes nº 64 - R/C Drtº Massamá | Queluz'
         },
 
         Horario: {
@@ -236,7 +237,7 @@ const DocHome = {
 
         Headline: {
           Titulo: 'morada',
-          Descrição: 'rua Lino de Assunção nº 24'
+          Descrição: 'Paço de Arcos'
         },
 
         Horario: {
