@@ -237,7 +237,7 @@ const DocHome = {
 
         Headline: {
           Titulo: 'morada',
-          Descrição: 'Paço de Arcos'
+          Descrição: 'Rua Lino de assunção n° 24 | Paço de Arcos'
         },
 
         Horario: {
